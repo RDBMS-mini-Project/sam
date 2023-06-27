@@ -41,11 +41,14 @@
 
     .submit-container button {
       padding: 5px 10px;
+      text-align: center;
+      padding: 15px;
+      width: 300px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
     }
 
-    .signup-button {
-      float: right;
-    }
   </style>
 </head>
 <body>
@@ -56,17 +59,17 @@
       <label for="username">Username:</label>
       <input type="text" id="username" name="username" placeholder="Enter your username" required>
     </div>
-    <div class="input-container">
+    <div class="input-container"><br>
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" placeholder="Enter your password" required>
     </div>
-    <div class="submit-container">
+    <div class="submit-container"><br>
       <button type="submit">Login</button>
     </div>
-  </form>
-<p>Not signed yet?</p>
 
-    <button class="signup-button" type="button" onclick="location.href='signup.html'">Sign Up</button>
+</form>
+<br>
+   <p>Not signed in yet?<a onclick="location.href='signup.html'">Sign Up</a></p>
   </div>
 </body>
 </html>
